@@ -1,0 +1,40 @@
+.background-container {
+    background-image: url('../static/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Hace que el fondo quede fijo */
+    min-height: 100vh;
+    padding: 20px;
+}
+  .character-card  {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  .episodes-card  {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+  }
+  .character-origen  {
+    background-color: rgba(16, 104, 42, 0.952);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    min-height: 100vh;       
+  }
